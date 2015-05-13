@@ -17,3 +17,38 @@ Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
 along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 and Blueprint http://www.blueprintcss.org/
 */
+
+#topbar {
+	background: #485E8E;
+	/*background-image: url(img/header-texture.png);
+
+	border-top: 10px double #3D5187;*/
+	border-top: 1px outset #6582C0;
+	
+
+}
+  
+.main-navigation li:hover > a, .main-navigation li.current_page_item a, .main-navigation li.current-menu-item a {
+	background-color: #8D8E70;
+}
+  
+.main-navigation li:hover > a, .main-navigation li.current_page_item a, .main-navigation li.current-menu-item a {
+	border-radius: 0px;
+}
+
+.site-footer {
+	background-color: #3D5187;
+}
+  
+.site-info {
+	background-color: #242F4F;
+}  
+
+.widget img {
+	max-width: 100%;
+}
+
+.useful_banner_manager_banners_rotation {
+	width: 100%;
+}
+
